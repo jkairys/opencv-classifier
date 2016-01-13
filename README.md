@@ -4,7 +4,7 @@ A framework for training image classifiers based on the sharkshadows image libra
 
 ## Requirements
 You will need:
-* A local copy of the sharkshadows image library (cropped images are all that is required, you don't need originals)
+* A local copy of the sharkshadows image library
 * OpenCV version 3
 * Python3
 
@@ -17,14 +17,20 @@ OpenCV appears to be a very capable platform, but the documentation is a bit... 
 To generate a classifier, clone this repository:
 
 Then just run the script:
-./bin/run.py --images=/opt/sharkshadows/img/samples/ --keyword=shark
 
+```
+#!bash
+./bin/run.py --images=/opt/sharkshadows/img/samples/ --keyword=shark
+```
 
 ## Installation
 
 Just clone the repository and you're ready to go:
+```
+#!bash
 git clone repo-url train-classifier
 cd train-classifier
+```
 
 ## License
 
