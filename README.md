@@ -4,9 +4,9 @@ A framework for training image classifiers based on the sharkshadows image libra
 
 ## Requirements
 You will need:
-* A local copy of the sharkshadows image library (cropped images are all that is required, you don't need originals)
-* OpenCV version 3
-* Python3
+A local copy of the sharkshadows image library (cropped images are all that is required, you don't need originals)
+  * OpenCV version 3
+  * Python3
 
 ## Motivation
 
